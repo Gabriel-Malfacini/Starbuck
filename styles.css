@@ -1,0 +1,97 @@
+/*Seletor (quem eu quero estilizar)
+Propriedade (O que eu vou alterar )
+Valor ( valor que eu quero colocar na propriedade)
+*/
+
+/* *= TUDO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    padding-top: 20px;
+    padding-left: 100px;
+    ;
+    padding-right: 100px;
+    /*top = cima
+    left = esquerda
+    rigth= direita 
+    bottom = baixo */
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixa_texto {
+    width: 600px;
+}
+
+
+
+
+h1 {
+    color: #333;
+    font-size: 60px;
+    /* Tamanho da fonte*/
+    font-weight: bold;
+    /* grossura da fonte*/
+}
+span{
+    color: #006e06;
+    font-weight: 900;
+    font-size: 100;
+}
+p{
+    font-size: 16px;
+}
+button{
+    background: #006e06;
+    color: floralwhite;
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background: #052e07;
+}
+.copao {
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+.starbucks {
+    width: 340px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center ;
+}
+.botao_menu{
+    width: 60px;
+    cursor: pointer;
+    transition: 0,5s;
+}
+.botao_menu:hover{
+    transform: translateY(-30px);
+}
+.circulo{
+    background: #017143;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+}
